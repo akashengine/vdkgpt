@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.video-thumbnail {
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.video-thumbnail:hover {
+    transform: scale(1.05);
+}
+
+.video-thumbnail img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.video-thumbnail p {
+    margin-top: 10px;
+    font-weight: bold;
+}
